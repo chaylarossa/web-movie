@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desain web - Home</title>
+    <!--Link To CSS-->
+    <link rel="stylesheet" href="./style.css" />
+    <!--Link Swiper CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!--Fav Icon-->
+    <link
+      rel="shortcut icon"
+      href="./img/Untitled (4).png"
+      type="image/x-icon"
+    />
+    <!--Box Icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <div class="nav container">
+        <a href="./index.html" class="logo"> Movie<span>Tix</span> </a>
+        <div class="search-box">
+          <input
+            type="search"
+            name=""
+            id="search-input"
+            placeholder="Search movie"
+          />
+          <i class="bx bx-search"></i>
+        </div>
+        <a href="#" class="user">
+          <img src="./img/rossa.png" alt="" class="user-img" />
+        </a>
+        <div class="navbar">
+          <a href="#home" class="nav-link nav-active">
+            <i class="bx bx-home"></i>
+            <span class="nav-link-title">Home</span>
+          </a>
+          <a href="#popular" class="nav-link">
+            <i class="bx bxs-hot"></i>
+            <span class="nav-link-title">Trending</span>
+          </a>
+          <a href="#movies" class="nav-link">
+            <i class="bx bx-compass"></i>
+            <span class="nav-link-title">Explore</span>
+          </a>
+          <a href="play-page.html" class="nav-link">
+            <i class="bx bx-tv"></i>
+            <span class="nav-link-title">Movies</span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!--Home-->
+    <section class="home container" id="home">
+      <img src="./img/home-background.png" alt="" class="home-img" />
+      <div class="home-text">
+        <h1 class="home-title">Hitman's Wife's <br />Bodyguard</h1>
+        <p>Releasing 10 April</p>
+        <a href="#" class="watch-btn">
+          <i class="bx bx-right-arrow"></i>
+          <span>Watch The Trailer</span>
+        </a>
+      </div>
+    </section>
+    <section class="popular container" id="popular">
+      <div class="heading">
+        <h2 class="heading-title">Popular Movies</h2>
+        <!--swiper buttons-->
+        <div class="swiper-btn">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+      <div class="popular-content swiper">
+        <div class="swiper-wrapper">
+          <!--Movies Box 1-->
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img src="./img/spiderman.jpg" alt="" class="movie-box-img" />
+              <div class="box-text">
+                <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                <span class="movie-type">Action</span>
+                <a href="#" class="watch-btn play-btn">
+                  <i class="bx bx-right-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--Movies Box 2-->
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img src="./img/dilan.jpeg" alt="" class="movie-box-img" />
+              <div class="box-text">
+                <h2 class="movie-title">Dilan 1991</h2>
+                <span class="movie-type">Romance</span>
+                <a href="#" class="watch-btn play-btn">
+                  <i class="bx bx-right-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--Movies Box 3-->
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img
+                src="./img/Badarawuhi di Desa Penari.jpeg"
+                alt=""
+                class="movie-box-img"
+              />
+              <div class="box-text">
+                <h2 class="movie-title">Badarawuhi di Desa Penari</h2>
+                <span class="movie-type">Horror</span>
+                <a href="#" class="watch-btn play-btn">
+                  <i class="bx bx-right-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--Movies Box 4-->
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img src="./img/agak laen.jpeg" alt="" class="movie-box-img" />
+              <div class="box-text">
+                <h2 class="movie-title">Agak Laen</h2>
+                <span class="movie-type">Horror/Comedy</span>
+                <a href="#" class="watch-btn play-btn">
+                  <i class="bx bx-right-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--Movies Box 5-->
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img src="./img/mariposa.jpeg" alt="" class="movie-box-img" />
+              <div class="box-text">
+                <h2 class="movie-title">Mariposa</h2>
+                <span class="movie-type">Romance/Comedy</span>
+                <a href="#" class="watch-btn play-btn">
+                  <i class="bx bx-right-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--Movies Box 6-->
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img src="./img/squid game.jpg" alt="" class="movie-box-img" />
+              <div class="box-text">
+                <h2 class="movie-title">Squid Game</h2>
+                <span class="movie-type">Action/Drama</span>
+                <a href="#" class="watch-btn play-btn">
+                  <i class="bx bx-right-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--Movies Box 7-->
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img
+                src="./img/Dear nathan movie.jpeg"
+                alt=""
+                class="movie-box-img"
+              />
+              <div class="box-text">
+                <h2 class="movie-title">Dear Nathan</h2>
+                <span class="movie-type">Romance/Drama</span>
+                <a href="#" class="watch-btn play-btn">
+                  <i class="bx bx-right-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--Movies Box 8-->
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img
+                src="./img/Miracle in Cell No_ 7.jpeg"
+                alt=""
+                class="movie-box-img"
+              />
+              <div class="box-text">
+                <h2 class="movie-title">Miracle in Cell No.7</h2>
+                <span class="movie-type">Family Comedy/Drama</span>
+                <a href="#" class="watch-btn play-btn">
+                  <i class="bx bx-right-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="movies container" id="movies">
+      <div class="heading">
+        <h2 class="heading-title">Popular K-Drama</h2>
+      </div>
+      <!--Movies Content-->
+      <div class="movies-content">
+        <!--Movies Box 1-->
+        <div class="swiper-slide">
+          <div class="movie-box">
+            <img src="./img/movie-1.jpeg" alt="" class="movie-box-img" />
+            <div class="box-text">
+              <h2 class="movie-title">Lovely Runner</h2>
+              <span class="movie-type">Romantic Comedy/Time Slip/Fantasy</span>
+              <a href="play-page.html" class="watch-btn play-btn">
+                <i class="bx bx-right-arrow"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--Movies Box 2-->
+        <div class="swiper-slide">
+          <div class="movie-box">
+            <img src="./img/movie-2.jpeg" alt="" class="movie-box-img" />
+            <div class="box-text">
+              <h2 class="movie-title">A Business Proposal</h2>
+              <span class="movie-type">Romance/Comedy/Drama</span>
+              <a href="#" class="watch-btn play-btn">
+                <i class="bx bx-right-arrow"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--Movies Box 3-->
+        <div class="swiper-slide">
+          <div class="movie-box">
+            <img src="./img/movie-3.jpeg" alt="" class="movie-box-img" />
+            <div class="box-text">
+              <h2 class="movie-title">Extraordinary You</h2>
+              <span class="movie-type">Romantic Comedy/Drama/Fantasy</span>
+              <a href="#" class="watch-btn play-btn">
+                <i class="bx bx-right-arrow"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--Movies Box 4-->
+        <div class="swiper-slide">
+          <div class="movie-box">
+            <img src="./img/movie-4.jpeg" alt="" class="movie-box-img" />
+            <div class="box-text">
+              <h2 class="movie-title">Queen Of Tears</h2>
+              <span class="movie-type">Romantic Comedy/Drama</span>
+              <a href="#" class="watch-btn play-btn">
+                <i class="bx bx-right-arrow"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--Movies Box 5-->
+        <div class="swiper-slide">
+          <div class="movie-box">
+            <img src="./img/movie-5.jpeg" alt="" class="movie-box-img" />
+            <div class="box-text">
+              <h2 class="movie-title">Duty After School</h2>
+              <span class="movie-type">Thriller</span>
+              <a href="#" class="watch-btn play-btn">
+                <i class="bx bx-right-arrow"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--Movies Box 6-->
+        <div class="swiper-slide">
+          <div class="movie-box">
+            <img src="./img/movie-6.jpeg" alt="" class="movie-box-img" />
+            <div class="box-text">
+              <h2 class="movie-title">Taxi Driver</h2>
+              <span class="movie-type">Action</span>
+              <a href="#" class="watch-btn play-btn">
+                <i class="bx bx-right-arrow"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--Movies Box 7-->
+        <div class="swiper-slide">
+          <div class="movie-box">
+            <img src="./img/movie-7.jpeg" alt="" class="movie-box-img" />
+            <div class="box-text">
+              <h2 class="movie-title">True Beauty</h2>
+              <span class="movie-type">Romance/Comedy</span>
+              <a href="#" class="watch-btn play-btn">
+                <i class="bx bx-right-arrow"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--Movies Box 8-->
+        <div class="swiper-slide">
+          <div class="movie-box">
+            <img src="./img/movie-8.jpeg" alt="" class="movie-box-img" />
+            <div class="box-text">
+              <h2 class="movie-title">The K2</h2>
+              <span class="movie-type">Romance/Action</span>
+              <a href="#" class="watch-btn play-btn">
+                <i class="bx bx-right-arrow"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="next-page">
+      <a href="#" class="next-btn">Next Page</a>
+    </div>
+    <!--Copyright-->
+    <div class="copyright">
+      <p>&#169; Chaylarossa Suryana Putri 2024</p>
+    </div>
+
+    <!--Link Swiper JS-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--Link To JS-->
+    <script src="./main.js"></script>
+  </body>
+</html>
